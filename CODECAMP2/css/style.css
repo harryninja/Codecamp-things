@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+/**{
+  box-sizing:box;
+
+}*/
+body{
+  background-color:#252525;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+}
+.glow {
+            font-size: 60px;
+            color: green;
+            text-align: center;
+            animation: glow 2s ease-in-out infinite alternate;
+        } @keyframes glow {
+            from {
+                text-shadow: 0 0 10px rgb(43, 255, 0),
+                             0 0 20px rgb(43, 255, 0),
+                             0 0 30px #26e600,
+                             0 0 40px #26e600,
+                             0 0 50px #26e600,
+                             0 0 60px #26e600,
+                             0 0 70px #26e600;
+            }
+            to {
+                text-shadow: 0 0 20px #4dff7a,
+                             0 0 30px #4dff7a,
+                             0 0 40px #4dff7a,
+                             0 0 50px #4dff7a,
+                             0 0 60px #4dff7a,
+                             0 0 70px #4dff7a,
+                             0 0 80px #4dff7a;
+            }
+}
+.container{
+  background-color: #121111;
+  width: 75%;
+  text-align: center;
+  padding-top: 30px;
+  padding: 15px;
+  margin: 0 auto 10px;
+  border-radius: 5px;
+  max-width: 900px;
+  /*padding-bottom: 20px;*/
+
+}
+
+#title{
+  font-weight: 20px;
+  font-size: 40px;
+  font-family: 'Patua one',cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  animation: glow 2s ease-in-out infinite alternate;
+  color:#bd00ff ;
+}
+
+#caption{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+/*
+#email{
+  /*display:flex;*/
+  /*flex-direction: row;*/
+/*  align-items: center;
+  display: inline;
+}*/
+
+.fields{
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+  animation: glow 2s ease-in-out infinite alternate;
+color:#ff0895 ;
+}
+
+.labels{
+  text-align: right;
+  vertical-align: top;
+  display: inline-block;
+  width: 40%;
+  padding: 7px;
+  animation: glow 2s ease-in-out infinite alternate;
+  color:#ff0895 ;
+}
+
+ul{
+  list-style-type: none;
+  animation: glow 2s ease-in-out infinite alternate;
+  color:#ff0895 ;
+}
+
+.radio, .checkbox{
+  /*padding-left:px;*/
+  margin-left: -40px;
+  vertical-align: top;
+  display: block;
+}
+
+
+#submit {
+  background-color: #0c3600;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin-left: -30px;
+  border: 0px solid;
+  animation: glow 2s ease-in-out infinite alternate;
+  color:#ff0895 ;
+}
+#description{
+  animation: glow 2s ease-in-out infinite alternate;
+  color:#ff0895 ;
+}
+
+
+@media screen and (max-width: 530px){
+
+  .fields{
+    text-align: left;
+    width: 100%;
+
+  }
+
+  .labels{
+    text-align: left;
+    width: 100%;
+  }
+
+  .radio, .checkbox{
+  /*padding-left:px;*/
+  margin-left: -30px;
+}
+
+}
